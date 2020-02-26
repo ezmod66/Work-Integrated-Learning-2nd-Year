@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{87110584-A3EE-4940-A8E4-122C0C32A262}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WILL_FINAL</RootNamespace>
+    <AssemblyName>WILL_FINAL</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNewCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewCustomer.Designer.cs">
+      <DependentUpon>AddNewCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewEmployee.Designer.cs">
+      <DependentUpon>AddNewEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Time_Sheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Time_Sheet.Designer.cs">
+      <DependentUpon>Add_Time_Sheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mdify_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mdify_Order.Designer.cs">
+      <DependentUpon>Mdify_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modify_Customer_Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modify_Customer_Details.Designer.cs">
+      <DependentUpon>Modify_Customer_Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modify_Employee_Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modify_Employee_Details.Designer.cs">
+      <DependentUpon>Modify_Employee_Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modify_Trip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modify_Trip.Designer.cs">
+      <DependentUpon>Modify_Trip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modify_Vehicle_Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modify_Vehicle_Information.Designer.cs">
+      <DependentUpon>Modify_Vehicle_Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewOrder.Designer.cs">
+      <DependentUpon>NewOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="New_Trip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New_Trip.Designer.cs">
+      <DependentUpon>New_Trip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Office_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Office_Employee.Designer.cs">
+      <DependentUpon>Office_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ofiice_Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ofiice_Manager.Designer.cs">
+      <DependentUpon>Ofiice_Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register_New_Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register_New_Password.Designer.cs">
+      <DependentUpon>Register_New_Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register_New_Vehicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register_New_Vehicle.Designer.cs">
+      <DependentUpon>Register_New_Vehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Schedule_Service_Appointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Schedule_Service_Appointment.Designer.cs">
+      <DependentUpon>Schedule_Service_Appointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service_Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service_Manager.Designer.cs">
+      <DependentUpon>Service_Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Time_Sheet_Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Time_Sheet_Manager.Designer.cs">
+      <DependentUpon>Time_Sheet_Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trip_Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trip_Manager.Designer.cs">
+      <DependentUpon>Trip_Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Service_Appointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Service_Appointment.Designer.cs">
+      <DependentUpon>Update_Service_Appointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Time_Sheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Time_Sheet.Designer.cs">
+      <DependentUpon>Update_Time_Sheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vehicle_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vehicle_Admin.Designer.cs">
+      <DependentUpon>Vehicle_Admin.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddNewCustomer.resx">
+      <DependentUpon>AddNewCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewEmployee.resx">
+      <DependentUpon>AddNewEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Time_Sheet.resx">
+      <DependentUpon>Add_Time_Sheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mdify_Order.resx">
+      <DependentUpon>Mdify_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modify_Customer_Details.resx">
+      <DependentUpon>Modify_Customer_Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modify_Employee_Details.resx">
+      <DependentUpon>Modify_Employee_Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modify_Trip.resx">
+      <DependentUpon>Modify_Trip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modify_Vehicle_Information.resx">
+      <DependentUpon>Modify_Vehicle_Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewOrder.resx">
+      <DependentUpon>NewOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New_Trip.resx">
+      <DependentUpon>New_Trip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Office_Employee.resx">
+      <DependentUpon>Office_Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ofiice_Manager.resx">
+      <DependentUpon>Ofiice_Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Register_New_Password.resx">
+      <DependentUpon>Register_New_Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register_New_Vehicle.resx">
+      <DependentUpon>Register_New_Vehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schedule_Service_Appointment.resx">
+      <DependentUpon>Schedule_Service_Appointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service_Manager.resx">
+      <DependentUpon>Service_Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Time_Sheet_Manager.resx">
+      <DependentUpon>Time_Sheet_Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trip_Manager.resx">
+      <DependentUpon>Trip_Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Service_Appointment.resx">
+      <DependentUpon>Update_Service_Appointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Time_Sheet.resx">
+      <DependentUpon>Update_Time_Sheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vehicle_Admin.resx">
+      <DependentUpon>Vehicle_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
